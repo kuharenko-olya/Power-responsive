@@ -1,0 +1,195 @@
+@media (max-width: 1024px) {
+    .header {
+        margin-bottom: 140px;
+    }
+
+    .description {
+        font-size: 21px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 70px;
+    }
+
+    .header {
+        margin-bottom: 135px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 65px;
+        line-height: 90px;
+    }
+
+    .description {
+        padding: 0 15px;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .btn-download {
+        display: block;
+    }
+
+    .mobile-links {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .mobile-links:hover {
+        color: green;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .checkbox:checked + .hidden {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 70px;
+    }
+
+    .header {
+        margin-bottom: 135px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 65px;
+        line-height: 90px;
+    }
+
+    .description {
+        padding: 0 15px;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .btn-download {
+        display: block;
+    }
+
+    .mobile-links {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .mobile-links:hover {
+        color: green;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .checkbox:checked + .hidden {
+        display: block;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .wrapper {
+        padding: 5px 5px;
+    }
+
+    .header {
+        margin-bottom: 60px;
+    }
+
+    .title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .btn-download {
+        display: none;
+        padding: 16px 12px;
+        font-size: 12px;
+    }
+
+    .btn-learn {
+        padding: 16px 85px;
+    }
+
+    .mobile-links {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .mobile-links:hover {
+        color: green;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .checkbox:checked + .hidden {
+        display: block;
+    }
+}
